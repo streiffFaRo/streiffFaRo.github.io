@@ -1,10 +1,36 @@
+* 
+{
+  background-color: lightgray; /* Hier wird ein grauer Hintergrund gesetzt */
+  margin-left: 20px;       /*  Diese zwei Befehle setzen links und rechts einen Setienabstand von 20px */
+  margin-right: 20px;
+}
 
-h1 {
-      color: blue;
-      background-color: yellow;
-      border: 1px solid black;
-    }
+p 
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Hier wird die Schriftart gewechselt*/
+}
 
-    p {
-      color: red;
-    }
+h1 
+{
+  color: rgb(0, 0, 0);
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+}
+
+img 
+{
+margin-right: 100px;   /* Dies bindet das Bild an die rechte Bildschirmseite mit einem Abstand von 100px */
+float: right;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
