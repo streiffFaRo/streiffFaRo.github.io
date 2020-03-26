@@ -18,6 +18,14 @@ h1
   border: 1px solid black;
 }
 
+h2
+{
+color: midnightblue;
+font-style: oblique;
+font-size: xx-large;
+font-family: serif;
+}
+
 img 
 {
 margin-right: 100px;   /* Dies bindet das Bild an die rechte Bildschirmseite mit einem Abstand von 100px */
