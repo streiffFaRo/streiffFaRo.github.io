@@ -29,6 +29,7 @@ font-family: serif;
 img 
 {
 margin-right: 100px;   /* Dies bindet das Bild an die rechte Bildschirmseite mit einem Abstand von 100px */
+margin-left: 100px;
 margin-top: 120px;
 margin-bottom: 120px;
 float: right;
@@ -67,13 +68,13 @@ tfoot {
     font-size: 30px;
     }
 
-    @media only screen and (min-width: 768px) {
-        .bild1 { grid-column: 1 / span 12; grid-row: 1; }
-        .lyrics1 { grid-column: 1 / span 6; grid-row: 2; }
-        .bild2 { grid-column: 7 / span 6; grid-row: 2; }
-        .lyrics2 { grid-column: 1 / span 3; grid-row: 3; }
-        .bild3 { grid-column: 4 / span 6; grid-row: 3; }
-        .lyrics3 { grid-column: 10 / span 3; grid-row: 3; }
-        .bild4 { grid-column: 1 / span 4; grid-row: 4; }
-        .lyrics4 { grid-column: 5 / span 8; grid-row: 4; }           
+        @media only screen and (min-width: 768px) {
+          .lyrics1 { grid-column: 1 / span 2; grid-row: 1 ; }
+          .bild1 { grid-column: 3 / span 1; grid-row: 1; }
+          .lyrics2 { grid-column: 1 / span 2; grid-row: 2; }
+          .bild2 { grid-column: 3 / span 1; grid-row: 2; }
+          .lyrics3 { grid-column: 1 / span 2; grid-row: 3; }
+          .bild3 { grid-column: 3 / span 1; grid-row: 3; }
+          .lyrics4 { grid-column: 1 / span 2; grid-row: 4; }          
+          .bild4 { grid-column: 3 / span 1; grid-row: 4; }
     }
