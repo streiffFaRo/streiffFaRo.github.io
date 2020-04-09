@@ -59,7 +59,9 @@ tfoot {
 
 .songlink
 {
-  border-radius: 200px;
+  border: 2px;
+  border-width: 2px;
+  border: 2px solid green
   background-color: gray;
 }
 
