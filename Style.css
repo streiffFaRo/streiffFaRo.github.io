@@ -57,6 +57,12 @@ tfoot {
 
 
 
+.songlink
+{
+  border-spacing: 50px;
+outline-color: red;
+}
+
 
 .grid-container {
   display: grid;
