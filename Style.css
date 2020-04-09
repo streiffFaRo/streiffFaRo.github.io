@@ -59,8 +59,14 @@ tfoot {
 
 .songlink
 {
-  border-spacing: 50px;
-outline-color: red;
+  border-radius: 200px;
+  background-color: gray;
+}
+
+/*Beim Überfahren mit der Maus wird die Hintergrundfarbe geändert*/
+.songlink.Button:hover 
+{  
+  background-color: black;      
 }
 
 
